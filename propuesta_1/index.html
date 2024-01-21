@@ -1,11 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <script src="main.js" type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/61d82801f8.js" crossorigin="anonymous"></script>
+  <title>LAAD</title>
 </head>
 <body>
+  <!-- HEADER -->
+  <header>
+    <nav class="container flex flex-ai-c flex-jc-sb">
+      <div class="logo">
+        <img src="sources/Captura.PNG" alt="Logo">
+      </div>
+
+      <div id="menuBtn" class="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="mobile-menu-active flex flex-ai-c">
+        <ul class="flex flex-fd-c flex-jc-c">
+          <li><a href="#">Quienes somos</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="">Proyectos</a></li>
+          <li><a href="">Publicaciones</a></li>
+          <li><a href="">Miembros</a></li>
+          <li><a href="">Contactanos</a></li>
+        </ul> 
+      </div>
+      
+      
+      <!-- DESKTOP MENU -->
+      <div class="main-menu">
+        <ul class="flex flex-ai-c">
+           <li><a href="#Quienes-somos">Quienes somos</a></li>
+           <li><a href="#eventos">Eventos</a></li>
+           <li><a href="">Proyectos</a></li>
+           <li><a href="">Publicaciones</a></li>
+           <li><a href="">Miembros</a></li>
+           <li><a href="">Contactanos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero flex container">
+      <h1>Proyectos y <br> experiencias <br> que suman</h1>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!--QUIENES SOMOS-->
+    <div id="Quienes-somos" class="About-title"><h3>QUIENES SOMOS</h3></div>   
+    <div class="About-container">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci provident iste, dignissimos ducimus at repellat. Dolor a dignissimos alias quam maiores facilis. Commodi voluptas perspiciatis blanditiis a enim, nam quo?. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam modi iure totam rem deleniti eum similique accusantium, voluptatibus nesciunt cum laboriosam hic nisi vitae, sed error excepturi dolorum? Est, voluptas.</p>
+        <img src="sources/retrato-grupal-trabajadores-oficina-multietnicos-sonriendo-camara-haciendo-buen-trabajo-juntos_146482-13910.avif" alt="">
+    </div>
+
+    <!--EVENTOS--> 
+    <div id="eventos" class="title-eventos"><h3>EVENTOS</h3></div>   
+    <div class="event-container">
+        <h3 class="year">2024</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="event-date">
+                    <div class="day">8</div>
+                    <div class="month">Nov</div>
+                </div>
+            </div>
+            <div class="event-right">
+                <h3 class="event-title">Some title over here</h3>
+                <div class="event-description">
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente eum nostrum ea eius, laudantium vel, maxime eligendi consequatur qui repellat odio accusamus ex magnam deleniti! Quas aperiam illo ad provident.
+                </div>
+                <div class="event-timing"><i class="fa-solid fa-clock"></i> 10:00 am</div>
+            </div>
+        </div>
+        <div class="event">
+            <div class="event-left">
+                <div class="event-date">
+                    <div class="day">8</div>
+                    <div class="month">Nov</div>
+                </div>
+            </div>
+            <div class="event-right">
+                <h3 class="event-title">Some title over here</h3>
+                <div class="event-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi laudantium consectetur iste voluptates voluptatem fuga sapiente ut natus reprehenderit quas dolor at, id ex! Ipsam maxime quasi tempore mollitia quod? 
+                </div>
+                <div class="event-timing"><i class="fa-solid fa-clock"></i> 10:00 am</div>
+            </div>
+        </div>
+    </div>
+
+    <!--PROYECTOS-->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h3 class="projects-title">Nuestros <span>Proyectos</span></h3>
+            </div>
+            <div class="projects-all">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projecto 1</h1>
+                        <h2>Subtitulo</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, aspernatur ipsam in voluptate accusamus odio nisi facere voluptatibus dolorem soluta repellendus cum laborum quibusdam incidunt hic, fugit libero dicta? Consectetur!</p>
+                    </div> 
+                    <div class="project-img">
+                            <img src="sources/Deep_Learning_746x419.jpg" alt="deep learning img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projecto 2</h1>
+                        <h2>Subtitulo</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, aspernatur ipsam in voluptate accusamus odio nisi facere voluptatibus dolorem soluta repellendus cum laborum quibusdam incidunt hic, fugit libero dicta? Consectetur!</p>
+                    </div> 
+                    <div class="project-img">
+                            <img src="sources/Deep_Learning_746x419.jpg" alt="deep learning img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projecto 3</h1>
+                        <h2>Subtitulo</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, aspernatur ipsam in voluptate accusamus odio nisi facere voluptatibus dolorem soluta repellendus cum laborum quibusdam incidunt hic, fugit libero dicta? Consectetur!</p>
+                    </div> 
+                    <div class="project-img">
+                            <img src="sources/Deep_Learning_746x419.jpg" alt="deep learning img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Projecto 4</h1>
+                        <h2>Subtitulo</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, aspernatur ipsam in voluptate accusamus odio nisi facere voluptatibus dolorem soluta repellendus cum laborum quibusdam incidunt hic, fugit libero dicta? Consectetur!</p>
+                    </div> 
+                    <div class="project-img">
+                            <img src="sources/Deep_Learning_746x419.jpg" alt="deep learning img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PUBLICACIONES-->
+  
     
+    <!--MIEMBROS-->
+
+
+    <section id="miembros">
+        <div class="members-container">
+            <div class="projects-header">
+                <h3 class="projects-title">MIEMBROS</h3>
+            </div>
+            <div class="members-all">
+                <div class="member-item">
+                    <div class="member-item-img">
+                        <img src="sources/Draacula_la_leyenda_jamaas_contada-614705420-large.jpg" alt="">
+                    </div>
+                    <h3>Johan Conde</h3>
+                    <p>Asistente</p>
+                    <div class="member-item-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <div class="member-item-img">
+                        <img src="sources/Draacula_la_leyenda_jamaas_contada-614705420-large.jpg" alt="">
+                    </div>
+                    <h3>Johan Conde</h3>
+                    <p>Asistente</p>
+                    <div class="member-item-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <div class="member-item-img">
+                        <img src="sources/Draacula_la_leyenda_jamaas_contada-614705420-large.jpg" alt="">
+                    </div>
+                    <h3>Johan Conde</h3>
+                    <p>Asistente</p>
+                    <div class="member-item-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <div class="member-item-img">
+                        <img src="sources/Draacula_la_leyenda_jamaas_contada-614705420-large.jpg" alt="">
+                    </div>
+                    <h3>Johan Conde</h3>
+                    <p>Asistente</p>
+                    <div class="member-item-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <div class="member-item-img">
+                        <img src="sources/Draacula_la_leyenda_jamaas_contada-614705420-large.jpg" alt="">
+                    </div>
+                    <h3>Johan Conde</h3>
+                    <p>Asistente</p>
+                    <div class="member-item-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- FOOTER -->
+  <footer>
+    <div class="footer container">
+      <!-- LOGO -->
+      <div class="footer-logo flex flex-jc-c">
+        <img src="sources/Captura.PNG" alt="Logo">
+      </div>
+  
+      <!-- NAVIGATION -->
+      <div class="footer-navigation">
+        <ul class="flex flex-ai-c flex-fd-c">
+           <li><a href="#">Quienes somos</a></li>
+            <li><a href="">Eventos</a></li>
+            <li><a href="">Proyectos</a></li>
+            <li><a href="">Publicaciones</a></li>
+            <li><a href="">Miembros</a></li>
+            <li><a href="">Contactanos</a></li>
+        </ul>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-copyright flex flex-jc-c">
+        <p>Copyright © 2024 LAAD. Todos los derechs reservados</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <div class="attribution">
+    Una pagina de <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">LAAD</a>. 
+    Hecho por <a href="https://vikazaichuk.com/">Johan Conde</a>.
+  </div>
+
 </body>
 </html>
